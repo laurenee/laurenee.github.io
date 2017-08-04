@@ -1,0 +1,282 @@
+body{
+    margin-top:8%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.nav{
+    top:0;
+    left:0;
+    padding: 2%;
+    position: fixed;
+    z-index: 12;
+    background-color: white;
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-decoration: none;
+    color: #56565a;
+}
+
+.textnav{
+    float: right;
+    padding-right: 4%;
+    padding-top: .45em;
+    font-family: Zilla Slab;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: .75em;
+    letter-spacing: .05em;
+    text-decoration: none;
+}
+
+.textnav li{
+    display: inline;
+    padding: 1em;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #56565a;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #56565a;   
+}
+
+a:hover {
+    text-decoration: none;
+    color: #98d1dd;
+    transition: .3s ease-in-out;
+}
+
+h1 {
+    margin-bottom: 7%;
+    font-family: Zilla Slab;
+    font-weight: 300;
+    font-size: 2.7em;
+    line-height: 1.2em;
+    color: #56565a;
+}
+
+h1 a {
+    text-decoration: underline;
+}
+
+h1 a:hover {
+    background: #98d1dd;   
+    text-decoration: none;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+h2 {
+    margin-bottom: 3%;
+    font-family: Zilla Slab;
+    font-weight: 400;
+    font-size: 2.25em;
+    line-height: 1em;
+    color: #56565a;
+}
+
+h2 a{
+    text-decoration:underline;
+}
+
+h2 a:hover{
+    background: #98d1dd;   
+    text-decoration: none;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 1.4em;
+    line-height: 1.25em;
+    color: #56565a;
+    text-align: justify;
+}
+
+h4 {
+    margin-top:0;
+    margin-bottom: 1%;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: .85em;
+    color: #56565a;
+    text-transform: uppercase;
+}
+
+h5{
+    margin-top:0;
+    margin-bottom:2%;
+    font-family: Zilla Slab;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: #98d1dd;
+}
+
+p{
+    margin-top: 0;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: .03em;
+    color: #56565a;
+    text-align: justify;
+}
+
+h6{
+    margin-top:0;
+    margin-bottom:4%;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: .87em;
+    line-height: 1.25em;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    color: #56565a;
+}
+
+h6 a{
+    text-decoration:underline;
+}
+
+h6 a:hover{
+    background: #98d1dd;   
+    text-decoration: none;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.intro{
+    width: 100%;
+    height: 100%;
+}
+
+.tag {
+    width: 60%;
+    padding-left: 10%;
+    padding-top: 5%;
+    margin-bottom: 6%;
+}
+
+.bio {
+    padding-left: 37%;
+    padding-right: 10%;
+    margin-bottom: 10%;
+}
+
+.profilephoto {
+    background-image: url(/Users/LJ/Desktop/FF-project/images/matterhorn.jpg);
+    float: right;
+    clear: both;
+    height: 17em;
+    width: 17em;
+    margin-right: 10%;
+    margin-top: 8%;
+    margin-left: 5%;
+    border: 5.5px solid #98d1dd;
+    border-radius: 100%;
+}
+
+.experience {
+    width: 50.5%;
+    padding-left: 10%;
+    padding-top: 5%;
+    margin-bottom: 10%;
+}
+
+button {
+    background: white;   
+    width: 17em;
+    height: 3em;
+    border: none;
+    outline: none;
+    margin-bottom: 4%;
+    font-family: Montserrat;
+    font-size: .85em;
+    text-transform: uppercase;
+    color: #98d1dd;
+    letter-spacing: .075em;
+    box-shadow: 2px 2px 7px 0 rgba(45, 45, 45, 0.25);
+    transition: .3s ease-in-out;
+}
+
+button:hover {
+    color: #98d1dd;
+    box-shadow: inset 1px 1px 5px 0 rgba(0, 0, 0, 0.25);
+    transition: .3s ease-in-out;
+}
+
+.education {
+    padding-left: 49%; 
+    margin-bottom: 10%;
+    width: 40%;
+}
+
+
+
+
+
+@media (max-width: 992px) {
+    .nav{ 
+        float: center;
+        text-align: center;
+        width: 100%;
+    } 
+}
+
+@media (max-width: 992px) {
+    .textnav { 
+        float: none;
+        text-align: center;
+        width: 100%;
+    } 
+}
+
+@media (max-width: 992px) {
+    .textnav li{ 
+        float: none;
+        text-align: center;
+        width: 100%;
+    } 
+}
+
+@media (max-width: 992px) {
+    .profilephoto{ 
+        position: relative;
+        padding: 0%;
+        margin-top: 20%;
+        text-align: center;
+    } 
+}
+
+@media (max-width: 992px) {
+    .tag{ 
+        margin-bottom: 25%;
+        float: left;
+        padding-left: 0;
+        text-align: left;
+        width: 100%;
+        margin: 8%;
+    } 
+}
+
+@media (max-width: 992px) {
+    .bio{ 
+        padding-right: 0%;
+        float: left;
+        padding-left: 0;
+        margin: 8%;
+    } 
+}
