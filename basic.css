@@ -177,7 +177,7 @@ h6 a:hover{
 }
 
 .profilephoto {
-    background-image: url(matterhorn.jpg);
+    background-image: url(images/matterhorn.jpg);
     float: right;
     clear: both;
     height: 17em;
